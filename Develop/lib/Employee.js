@@ -1,5 +1,3 @@
-// const inquirer = require('inquirer');
-// const jest = require('jest');
 
 class Employee {
     constructor(name, id, email) {
@@ -24,19 +22,5 @@ class Employee {
         return "Employee"  
     }
 }
-
-// const testValue = 'Employee';
-// const testValue = 'Alice';
-// const testValue = 100;
-// const name = "Alice";
-// const e = new Employee(testValue, 1, 'test@test.com');
-// console.log(typeof(e));
-// console.log(e.name);
-// console.log(e.id);
-// console.log(e.email);
-// e.getName();
-// e.getId();
-// e.getEmail();
-// getRole();
 
 module.exports = Employee;
