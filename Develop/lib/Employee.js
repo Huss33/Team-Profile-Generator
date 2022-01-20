@@ -1,6 +1,5 @@
-const inquirer = require('inquirer');
-const jest = require('jest');
-
+// const inquirer = require('inquirer');
+// const jest = require('jest');
 
 class Employee {
     constructor(name, id, email) {
@@ -9,30 +8,28 @@ class Employee {
         this.email = email;
     }
     
-    getName = () => {
-        console.log(`${this.name}`);
+    getName() {
+        return this.name;
     }
     
-    getId = () => {
-        console.log(`${this.id}`);
+    getId() {
+        return this.id;
     }
     
-    getEmail = () => {
-        console.log(`${this.email}`);
+    getEmail() {
+        return this.email;
     }
     
-    getRole = () => {
-        return testValue  
+    getRole() {
+        return "Employee"  
     }
 }
 
-
-
-const testValue = 'Employee';
+// const testValue = 'Employee';
 // const testValue = 'Alice';
 // const testValue = 100;
 // const name = "Alice";
-const e = new Employee("Alice", 1, 'test@test.com');
+// const e = new Employee(testValue, 1, 'test@test.com');
 // console.log(typeof(e));
 // console.log(e.name);
 // console.log(e.id);
@@ -40,7 +37,6 @@ const e = new Employee("Alice", 1, 'test@test.com');
 // e.getName();
 // e.getId();
 // e.getEmail();
-e.getRole();
-
+// getRole();
 
 module.exports = Employee;
