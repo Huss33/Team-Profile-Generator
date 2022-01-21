@@ -16,6 +16,31 @@ class Engineer extends Employee {
     getRole() {
         return "Engineer"  
     }
+    
+    engineer() {
+        inquirer.prompt([
+            {
+                type:'input',
+                message: 'Please enter engineer name:',
+                name: 'name'
+            },
+            {
+                type:'input',
+                message: 'Please enter engineer id:',
+                name: 'id'
+            },
+            {
+                type:'input',
+                message: 'Please enter engineer email:',
+                name: 'email'
+            },
+            {
+                type:'input',
+                message: 'Please enter engineer GitHub username:',
+                name: 'github'
+            }
+        ])
+    }
 }
 
 module.exports = Engineer;

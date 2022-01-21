@@ -16,6 +16,31 @@ class Intern extends Employee {
     getRole() {
         return "Intern"  
     }
+
+    intern() {
+        inquirer.prompt([
+            {
+                type:'input',
+                message: 'Please enter intern name:',
+                name: 'name'
+            },
+            {
+                type:'input',
+                message: 'Please enter intern id:',
+                name: 'id'
+            },
+            {
+                type:'input',
+                message: 'Please enter intern email:',
+                name: 'email'
+            },
+            {
+                type:'input',
+                message: 'Please enter intern school:',
+                name: 'school'
+            }
+        ])
+    }
 }
 
 module.exports = Intern;
