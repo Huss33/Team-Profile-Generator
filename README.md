@@ -20,7 +20,7 @@ Project video Link: https://drive.google.com/file/d/1yv00oDyiytJajd9e3oB1XpdCqhE
 - Display's all team members on a constructed html page when finished creating team profile
 ## Screenshots
 
-![App Screenshot](https://github.com/Huss33/react-hw/blob/main/src/Images/React%20Portfolio%20Snippet.JPG) 
+![App Screenshot](https://github.com/Huss33/Team-Profile-Generator/blob/main/Assets/Team%20Profile%20Generator%20Snippet.JPG) 
 
 
 ## Roadmap
